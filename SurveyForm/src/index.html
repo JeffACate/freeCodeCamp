@@ -1,0 +1,57 @@
+<html>  
+    <head>
+        <title>Survey From</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <section id="titleBar">
+            <h1 id="title">freeCodeCamp Survey Form</h1>
+            <p id="description">Thank you for taking the time to help us improve the platform</p>
+        </section>
+        <form id="survey-form">
+            <label id="name-label">Name</label><br/>
+            <input type="text" id="name" placeholder="Name" required /><br/>
+            <label id="email-label">Email</label><br/>
+            <input type="email" id="email" placeholder="Email" required /><br/>
+            <label id="number-label">Age (optional)</label><br/>
+            <input type="number" min="18" max="100" placeholder="Age" id="number" required /><br/>
+            <label id="dropdown-label">Which option best describes your current role?</label><br/>
+            <select id="dropdown">
+                <option value="" text="Select current role" disabled selected>Select current role</option>
+                <option value="Student" text="Student">Student</option>
+                <option value="Full Time Job" text="Full Time Job">Full Time Job</option>
+                <option value="Full Time Learner" text="Full Time Learner">Full Time Learner</option>
+                <option value="Prefer not to say" text="Prefer not to say">Prefer not to say</option>
+                <option value="Other" text="Other">Other</option>
+            </select><br />
+            <label id="recommend-label">Would you recommend freeCodeCamp to a friend?</label><br />
+                <input type="radio" value="Definitely" name="recommend">Definitely</input>
+                <input type="radio" value="Maybe" name="recommend">Maybe</input>
+                <input type="radio" value="Not sure" name="recommend">Not sure</input><br />
+                <label id="favorite-label">What is your favorite feature of freeCodeCamp?</label><br/>
+                <select id="favorite">
+                <option value="" text="Select current role" disabled selected>Select current role</option>
+                <option value="Challenges" text="Challenges">Challenges</option>
+                <option value="Projects" text="Projects">Projects</option>
+                <option value="Community" text="Community">Community</option>
+                <option value="Open Source" text="Open Source">Open Source</option>
+            </select><br />
+            <label id="improve-label">Would you like to see improved? (Check all that apply)</label><br />
+            <input type="checkbox" value="Front-end Projects" name="improve">Front-end Projects</input>
+            <input type="checkbox" value="Back-end Projects" name="improve">Back-end Projects</input>
+            <input type="checkbox" value="Data Visualization" name="improve">Data Visualization</input>
+            <input type="checkbox" value="Challenges" name="improve">Challenges</input>
+            <input type="checkbox" value="Data Visualization" name="improve">Data Visualization</input>
+            <input type="checkbox" value="Open Source Community" name="improve">Open Source Community</input>
+            <input type="checkbox" value="Gitter help rooms" name="improve">Gitter help rooms</input>
+            <input type="checkbox" value="Videos" name="improve">Videos</input>
+            <input type="checkbox" value="City Meetups" name="improve">City Meetups</input>
+            <input type="checkbox" value="Wiki" name="improve">Wiki</input>
+            <input type="checkbox" value="Forum" name="improve">Forum</input>
+            <input type="checkbox" value="Additional Courses" name="Additional Courses">Videos</input>
+            <label id="comments-label">Any comments or suggestions?</label><br />
+            <textarea placeholder="Enter your comments here..." ></textarea><br />
+            <input type="submit" id="submit"> 
+        </form>
+    </body>
+</html>
