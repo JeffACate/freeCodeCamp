@@ -27,7 +27,7 @@
 * [ ] UNIQUE
 
 ## References
-* [ ] Star -> Galaxy
+* [x] Star -> Galaxy
 * [ ] Planet => Star
 * [ ] Moon => Planet
 
